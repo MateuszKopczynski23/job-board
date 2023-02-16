@@ -23,6 +23,18 @@ export const useJobStore = createGlobalState(() => {
       location: 'Idaho',
       salary: 2000
     },
+    {
+      id: getRandomId(),
+      title: 'Astronaut',
+      location: 'Oklahoma',
+      salary: 10000
+    },
+    {
+      id: getRandomId(),
+      title: 'Firefighter',
+      location: 'Alaska',
+      salary: 7000
+    },
   ]);
 
   const order = ref<OrderTerm>('title');

@@ -38,19 +38,4 @@ header .title {
   font-size: 1.4rem;
   text-align: center;
 }
-
-header p {
-  font-weight: 500;
-  margin: 0;
-}
-
-button {
-  color: #2c2929;
-  border: 3px solid #14b25c;
-  background: #7fcc9f;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-}
 </style>
